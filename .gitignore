@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+*.pkl
+*.pth
+*.mp4
+*.mov
+*.avi
+*.png
+outputs/
+weights/
+frames/
