@@ -37,4 +37,17 @@ Extract frames to ./frames/
 Upscale frames using Real-ESRGAN
 Optionally interpolate using RIFE (if enabled)
 Save the final video in ./outputs/
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📂 Folder Structure
+
+4kVideoFPS/
+├── inputs/             # Drop input videos here
+├── frames/             # Raw extracted frames
+├── upscaled_frames/    # ESRGAN-upscaled frames
+├── outputs/            # Final output video
+├── weights/            # Pretrained model weights
+├── venv/               # Virtual environment (not tracked)
+├── inference.py        # Main script
+├── requirements.txt    # Python dependencies
+└── README.md
 
